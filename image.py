@@ -10,4 +10,3 @@ def generate(height, width, opixels):
 
 def display(img):
     plt.imshow(img, cmap="gray_r", vmin=0, vmax=1)
-    plt.show()
